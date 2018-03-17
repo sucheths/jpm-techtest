@@ -87,13 +87,10 @@ public class SalesMessageProcessor {
         }
 
         if (messageCount % 10 == 0) {
-            //print
-            System.out.println("printin now");
             printEachProductSaleValue();
         }
 
         if (messageCount % 50 == 0) {
-            //print 
             printAdjustments();
         }
 
